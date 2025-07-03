@@ -1,0 +1,17 @@
+[build-system]
+requires      = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name    = "icoapi"
+version = "0.1.0"
+description = "Czech IČ/DIČ validation API"
+readme  = "README.md"
+requires-python = ">=3.10"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+# <- setuptools automaticky najde všechny balíčky pod src/
+#    není potřeba ručně vypisovat
+

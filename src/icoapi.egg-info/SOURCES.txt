@@ -1,0 +1,12 @@
+pyproject.toml
+src/icoapi/ __init__.py
+src/icoapi/__init__.py
+src/icoapi/ares.py
+src/icoapi/fastapi_app.py
+src/icoapi/validators.py
+src/icoapi.egg-info/PKG-INFO
+src/icoapi.egg-info/SOURCES.txt
+src/icoapi.egg-info/dependency_links.txt
+src/icoapi.egg-info/top_level.txt
+tests/test_api.py
+tests/test_validators.py
